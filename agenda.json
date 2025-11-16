@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1763319307687,
+    "text": "hoyu estuvimos un tema importante de la fotosintesis",
+    "datetime": "2025-12-11 15:00",
+    "triggered": false,
+    "repeat": "None",
+    "completed": false
+  },
+  {
+    "id": 1763319323953,
+    "text": "estudiar matematica",
+    "datetime": "2025-12-11 18:00",
+    "triggered": false,
+    "repeat": "Daily",
+    "completed": false
+  },
+  {
+    "id": 1763319417943,
+    "text": "estudair programacion",
+    "datetime": "2025-11-12 19:00",
+    "triggered": false,
+    "repeat": "Daily",
+    "completed": false
+  },
+  {
+    "id": 1763319457434,
+    "text": "hoty vimos en matematica el binomio al cuadrado, la profe nos tiro una pagina para poder ver si no entendiamos",
+    "datetime": "2025-11-12 11:00",
+    "triggered": false,
+    "repeat": "None",
+    "completed": false
+  }
+]

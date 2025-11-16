@@ -1,0 +1,35 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Agenda - Web</title>
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;margin:20px}
+    input,select{padding:6px;margin:4px}
+    .note{border-bottom:1px solid #ddd;padding:6px}
+    .actions{margin-top:8px}
+  </style>
+</head>
+<body>
+  <h2>Agenda - Interfaz Web</h2>
+  <div>
+    <input id="text" placeholder="Nota / recordatorio" size="40" />
+    <input id="date" type="date" />
+    <input id="time" type="time" />
+    <select id="repeat">
+      <option value="None">No repetir</option>
+      <option value="Daily">Diario</option>
+      <option value="Weekly">Semanal</option>
+      <option value="Monthly">Mensual</option>
+      <option value="Yearly">Anual</option>
+    </select>
+    <button id="add">Añadir</button>
+  </div>
+
+  <h3>Próximos</h3>
+  <div id="list"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
